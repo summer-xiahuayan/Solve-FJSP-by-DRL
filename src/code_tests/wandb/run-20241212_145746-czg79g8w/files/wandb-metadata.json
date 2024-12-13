@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.6",
+    "heartbeatAt": "2024-12-12T06:57:48.852993",
+    "startedAt": "2024-12-12T06:57:46.820048",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Administrator\\PycharmProjects\\schlably\\src\\code_tests\\wandbtest.py",
+    "codePath": "src\\code_tests\\wandbtest.py",
+    "git": {
+        "remote": "https://github.com/tmdt-buw/schlably",
+        "commit": "54dec341082e0b7dccaf6c7e2f3f9e1f5730714e"
+    },
+    "email": "1409033278@qq.com",
+    "root": "C:/Users/Administrator/PycharmProjects/schlably",
+    "host": "DESKTOP-OIHA7S2",
+    "username": "Administrator",
+    "executable": "C:\\ProgramData\\Anaconda3\\envs\\py310\\python.exe"
+}

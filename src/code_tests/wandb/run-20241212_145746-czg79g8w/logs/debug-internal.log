@@ -1,0 +1,198 @@
+2024-12-12 14:57:46,838 INFO    StreamThr :7872 [internal.py:wandb_internal():88] W&B internal server running at pid: 7872, started at: 2024-12-12 14:57:46.838064
+2024-12-12 14:57:46,839 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: status
+2024-12-12 14:57:46,842 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: status
+2024-12-12 14:57:46,844 DEBUG   SenderThread:7872 [sender.py:send():301] send: header
+2024-12-12 14:57:46,844 INFO    WriterThread:7872 [datastore.py:open_for_write():75] open: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\run-czg79g8w.wandb
+2024-12-12 14:57:46,926 DEBUG   SenderThread:7872 [sender.py:send():301] send: run
+2024-12-12 14:57:48,391 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: check_version
+2024-12-12 14:57:48,392 INFO    SenderThread:7872 [dir_watcher.py:__init__():216] watching files in: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files
+2024-12-12 14:57:48,392 INFO    SenderThread:7872 [sender.py:_start_run_threads():912] run started: czg79g8w with start time 1733986666.834062
+2024-12-12 14:57:48,392 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:48,393 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:48,393 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: check_version
+2024-12-12 14:57:48,835 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: run_start
+2024-12-12 14:57:48,852 DEBUG   HandlerThread:7872 [meta.py:__init__():34] meta init
+2024-12-12 14:57:48,852 DEBUG   HandlerThread:7872 [meta.py:__init__():49] meta init done
+2024-12-12 14:57:48,852 DEBUG   HandlerThread:7872 [meta.py:probe():215] probe
+2024-12-12 14:57:48,877 DEBUG   HandlerThread:7872 [meta.py:_setup_git():205] setup git
+2024-12-12 14:57:48,936 DEBUG   HandlerThread:7872 [meta.py:_setup_git():212] setup git done
+2024-12-12 14:57:48,936 DEBUG   HandlerThread:7872 [meta.py:_save_pip():53] save pip
+2024-12-12 14:57:48,937 DEBUG   HandlerThread:7872 [meta.py:_save_pip():67] save pip done
+2024-12-12 14:57:48,937 DEBUG   HandlerThread:7872 [meta.py:_save_conda():74] save conda
+2024-12-12 14:57:49,410 INFO    Thread-16 :7872 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\wandb-summary.json
+2024-12-12 14:57:49,410 INFO    Thread-16 :7872 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\conda-environment.yaml
+2024-12-12 14:57:49,410 INFO    Thread-16 :7872 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\requirements.txt
+2024-12-12 14:57:50,310 DEBUG   HandlerThread:7872 [meta.py:_save_conda():84] save conda done
+2024-12-12 14:57:50,310 DEBUG   HandlerThread:7872 [meta.py:probe():253] probe done
+2024-12-12 14:57:50,373 DEBUG   SenderThread:7872 [sender.py:send():301] send: files
+2024-12-12 14:57:50,373 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2024-12-12 14:57:50,373 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: stop_status
+2024-12-12 14:57:50,374 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: stop_status
+2024-12-12 14:57:50,377 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,378 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,378 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,379 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,380 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,383 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,384 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,384 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: partial_history
+2024-12-12 14:57:50,385 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:50,409 INFO    Thread-16 :7872 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\wandb-metadata.json
+2024-12-12 14:57:51,107 DEBUG   SenderThread:7872 [sender.py:send():301] send: telemetry
+2024-12-12 14:57:51,107 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,107 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,108 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,108 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,109 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,109 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,110 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,110 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,110 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,111 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,111 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,111 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,112 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,112 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,112 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,112 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,112 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,113 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,113 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,113 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,114 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,114 DEBUG   SenderThread:7872 [sender.py:send():301] send: history
+2024-12-12 14:57:51,114 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,114 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,115 DEBUG   SenderThread:7872 [sender.py:send():301] send: telemetry
+2024-12-12 14:57:51,115 DEBUG   SenderThread:7872 [sender.py:send():301] send: exit
+2024-12-12 14:57:51,115 INFO    SenderThread:7872 [sender.py:send_exit():437] handling exit code: 0
+2024-12-12 14:57:51,115 INFO    SenderThread:7872 [sender.py:send_exit():439] handling runtime: 1
+2024-12-12 14:57:51,115 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,116 INFO    SenderThread:7872 [sender.py:send_exit():445] send defer
+2024-12-12 14:57:51,116 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:51,116 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,116 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 0
+2024-12-12 14:57:51,116 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,117 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 0
+2024-12-12 14:57:51,117 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 1
+2024-12-12 14:57:51,117 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,117 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 1
+2024-12-12 14:57:51,153 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,153 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 1
+2024-12-12 14:57:51,153 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 2
+2024-12-12 14:57:51,154 DEBUG   SenderThread:7872 [sender.py:send():301] send: stats
+2024-12-12 14:57:51,154 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,154 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 2
+2024-12-12 14:57:51,154 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,154 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 2
+2024-12-12 14:57:51,154 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 3
+2024-12-12 14:57:51,154 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,155 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 3
+2024-12-12 14:57:51,155 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,155 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 3
+2024-12-12 14:57:51,155 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 4
+2024-12-12 14:57:51,155 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,155 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 4
+2024-12-12 14:57:51,155 DEBUG   SenderThread:7872 [sender.py:send():301] send: summary
+2024-12-12 14:57:51,156 INFO    SenderThread:7872 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2024-12-12 14:57:51,156 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,156 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 4
+2024-12-12 14:57:51,156 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 5
+2024-12-12 14:57:51,156 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,156 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 5
+2024-12-12 14:57:51,156 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,157 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 5
+2024-12-12 14:57:51,224 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:51,414 INFO    Thread-16 :7872 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\wandb-summary.json
+2024-12-12 14:57:51,754 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 6
+2024-12-12 14:57:51,754 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:51,754 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,754 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 6
+2024-12-12 14:57:51,755 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,755 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 6
+2024-12-12 14:57:51,755 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 7
+2024-12-12 14:57:51,755 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:51,755 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 7
+2024-12-12 14:57:51,755 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:51,755 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 7
+2024-12-12 14:57:51,755 INFO    SenderThread:7872 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-12-12 14:57:51,791 INFO    Thread-22 :7872 [upload_job.py:push():139] Uploaded file C:\Users\ADMINI~1\AppData\Local\Temp\tmpwh1f0lstwandb\oosslv2q-wandb-metadata.json
+2024-12-12 14:57:51,860 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:52,416 INFO    SenderThread:7872 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\config.yaml
+2024-12-12 14:57:52,416 INFO    SenderThread:7872 [dir_watcher.py:finish():392] scan: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files
+2024-12-12 14:57:52,416 INFO    SenderThread:7872 [dir_watcher.py:finish():406] scan save: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\conda-environment.yaml conda-environment.yaml
+2024-12-12 14:57:52,416 INFO    SenderThread:7872 [dir_watcher.py:finish():406] scan save: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\config.yaml config.yaml
+2024-12-12 14:57:52,417 INFO    SenderThread:7872 [dir_watcher.py:finish():406] scan save: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\requirements.txt requirements.txt
+2024-12-12 14:57:52,419 INFO    SenderThread:7872 [dir_watcher.py:finish():406] scan save: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\wandb-metadata.json wandb-metadata.json
+2024-12-12 14:57:52,421 INFO    SenderThread:7872 [dir_watcher.py:finish():406] scan save: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\wandb-summary.json wandb-summary.json
+2024-12-12 14:57:52,424 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 8
+2024-12-12 14:57:52,424 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:52,425 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:52,427 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 8
+2024-12-12 14:57:52,428 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:52,428 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 8
+2024-12-12 14:57:52,429 INFO    SenderThread:7872 [file_pusher.py:finish():168] shutting down file pusher
+2024-12-12 14:57:52,543 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:52,543 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:52,654 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:52,654 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:52,764 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:52,765 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:52,874 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:52,874 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:52,985 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:52,985 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,096 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,096 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,207 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,207 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,318 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,318 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,430 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,430 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,539 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,540 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,650 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,650 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,761 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,762 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,872 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,872 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:53,878 INFO    Thread-25 :7872 [upload_job.py:push():139] Uploaded file C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\wandb-summary.json
+2024-12-12 14:57:53,903 INFO    Thread-24 :7872 [upload_job.py:push():139] Uploaded file C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\requirements.txt
+2024-12-12 14:57:53,952 INFO    Thread-23 :7872 [upload_job.py:push():139] Uploaded file C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\files\config.yaml
+2024-12-12 14:57:53,982 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:53,982 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:54,093 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:54,093 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:54,157 INFO    Thread-15 (_thread_body):7872 [sender.py:transition_state():458] send defer: 9
+2024-12-12 14:57:54,157 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:54,158 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 9
+2024-12-12 14:57:54,158 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:54,158 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 9
+2024-12-12 14:57:54,205 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:54,625 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 10
+2024-12-12 14:57:54,626 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:54,626 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:54,627 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 10
+2024-12-12 14:57:54,627 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:54,627 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 10
+2024-12-12 14:57:54,627 INFO    SenderThread:7872 [sender.py:transition_state():458] send defer: 11
+2024-12-12 14:57:54,628 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: defer
+2024-12-12 14:57:54,628 INFO    HandlerThread:7872 [handler.py:handle_request_defer():161] handle defer: 11
+2024-12-12 14:57:54,628 DEBUG   SenderThread:7872 [sender.py:send():301] send: final
+2024-12-12 14:57:54,628 DEBUG   SenderThread:7872 [sender.py:send():301] send: footer
+2024-12-12 14:57:54,629 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: defer
+2024-12-12 14:57:54,629 INFO    SenderThread:7872 [sender.py:send_request_defer():454] handle sender defer: 11
+2024-12-12 14:57:54,740 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: poll_exit
+2024-12-12 14:57:54,740 DEBUG   SenderThread:7872 [sender.py:send_request():315] send_request: poll_exit
+2024-12-12 14:57:54,740 INFO    SenderThread:7872 [file_pusher.py:join():173] waiting for file pusher
+2024-12-12 14:57:55,932 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: sampled_history
+2024-12-12 14:57:55,933 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: get_summary
+2024-12-12 14:57:55,934 DEBUG   HandlerThread:7872 [handler.py:handle_request():138] handle_request: shutdown
+2024-12-12 14:57:55,934 INFO    HandlerThread:7872 [handler.py:finish():807] shutting down handler
+2024-12-12 14:57:56,656 INFO    WriterThread:7872 [datastore.py:close():279] close: C:\Users\Administrator\PycharmProjects\schlably\src\code_tests\wandb\run-20241212_145746-czg79g8w\run-czg79g8w.wandb
+2024-12-12 14:57:56,829 INFO    SenderThread:7872 [sender.py:finish():1315] shutting down sender
+2024-12-12 14:57:56,829 INFO    SenderThread:7872 [file_pusher.py:finish():168] shutting down file pusher
+2024-12-12 14:57:56,829 INFO    SenderThread:7872 [file_pusher.py:join():173] waiting for file pusher
+2024-12-12 14:57:57,951 INFO    MainThread:7872 [internal.py:handle_exit():78] Internal process exited

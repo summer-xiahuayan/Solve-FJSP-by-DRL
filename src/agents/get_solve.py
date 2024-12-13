@@ -18,7 +18,7 @@ def solve():
 
 
     # run environment episode
-    run_episode(environment, model=None,heuristic_id='LTR', handler=evaluation_handler)
+    run_episode(environment, model=None,heuristic_id='MTR', handler=evaluation_handler)
 
     image=environment.render()
     image.show()

@@ -176,7 +176,7 @@ class Logger:
             # add data to wandb table
             log_data = [agent]
             log_data.extend(kwargs.values())
-            log_data.append(wandb.Image(gantt_chart))
+            #log_data.append(wandb.Image(gantt_chart))
             self.wandb_table.add_data(*log_data)
             # overwrite the current state of table in the buffer
             self.record_buffer['test_table'] = wandb.Table(data=self.wandb_table.data, columns=self.wandb_table.columns)

@@ -79,7 +79,7 @@ Processing_time=[[[5, 9999, 4, 9999, 9999, 9999],
 num_jobs=10
 num_tasks=6
 num_machines=6
-num_instances=10000
+num_instances=100000
 
 from multiprocessing import Process, Manager
 def get_instance():

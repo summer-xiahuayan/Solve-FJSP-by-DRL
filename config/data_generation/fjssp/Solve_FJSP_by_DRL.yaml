@@ -5,7 +5,7 @@
 # (R) [str] Type of your scheduling problem - this template is for the fjssp
 sp_type: fjssp
 # (O)   [string]  Filename under the generated data will be saved (subdirectory is chosen by sp_type)
-instances_file: Solve_FJSP_by_DRL_10000.pkl
+instances_file: Solve_FJSP_by_DRL_100000.pkl
 # (O)   [int]     Seed for all pseudo random generators (random, numpy, torch)
 seed: 0
 # (R) [int] Number of jobs to be scheduled
@@ -19,7 +19,7 @@ num_tools: 0
 # (O) [list[int]] Duration of tasks are sampled uniformly from this list
 runtimes: [1, 3, 5, 7, 9]
 # (R) [int] Number of instances (instances of the scheduling problem) to be generated
-num_instances: 10000
+num_instances: 100000
 # (O) [int] Number of parallel processes used to calculate the instances
 num_processes: 16
 # (O) [bool] Save the generated data in a file
